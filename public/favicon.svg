@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bytros Favicon - Modern B -->
+  <rect width="32" height="32" rx="6" fill="#0c0c4e"/>
+
+  <!-- Stylized B -->
+  <g transform="translate(8, 9)">
+    <!-- Upper B section -->
+    <path d="M0 0 L0 14 L8 7 L16 14 L16 0 L8 7 L0 0 Z"
+          fill="#ed786a"/>
+
+    <!-- Lower B section -->
+    <path d="M0 7 L8 0 L16 7 L16 14 L8 7 L0 14 L0 7 Z"
+          fill="#ed786a"/>
+  </g>
+</svg>

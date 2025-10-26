@@ -1,0 +1,26 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bytros Logo - Stylized B -->
+  <g transform="translate(100, 100)">
+    <!-- Upper B curve -->
+    <path d="M20 20 L20 90 L120 90 C140 90 160 70 160 50 C160 30 140 20 120 20 L20 20 Z" 
+          fill="none" 
+          stroke="#ed786a" 
+          stroke-width="3" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Lower B curve -->
+    <path d="M20 90 L20 160 L130 160 C150 160 170 140 170 120 C170 100 150 90 130 90 L20 90 Z" 
+          fill="none" 
+          stroke="#ed786a" 
+          stroke-width="3" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Vertical line -->
+    <path d="M20 20 L20 160" 
+          stroke="#ed786a" 
+          stroke-width="3" 
+          stroke-linecap="round"/>
+  </g>
+</svg>
