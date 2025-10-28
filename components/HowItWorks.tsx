@@ -15,7 +15,7 @@ const steps = [
     icon: Bitcoin,
     number: '02',
     title: 'Deposit Bitcoin Collateral',
-    description: 'Deposit tBTC to use as collateral for your trades. Your funds remain in your control at all times.',
+    description: 'Deposit bBTC to use as collateral for your trades. Your funds remain in your control at all times.',
     color: 'from-pastel-green-400 to-pastel-green-500',
   },
   {

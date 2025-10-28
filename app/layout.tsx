@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Bytros - Bitcoin Perpetuals on Starknet | Coming Soon',
   description: 'Trade perpetual futures with Bitcoin collateral. Up to 20x leverage, no KYC, self-custody on Starknet. Launching soon.',
-  keywords: 'Bitcoin, Perpetuals, Starknet, DeFi, Leverage Trading, tBTC, Decentralized Exchange',
+  keywords: 'Bitcoin, Perpetuals, Starknet, DeFi, Leverage Trading, bBTC, Decentralized Exchange',
   openGraph: {
     title: 'Bytros - Bitcoin Perpetuals on Starknet',
     description: 'Trade perpetual futures with Bitcoin collateral. Up to 20x leverage, no KYC, self-custody on Starknet.',

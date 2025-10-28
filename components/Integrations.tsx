@@ -2,47 +2,48 @@
 
 import { motion } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 const integrations = [
   {
     name: 'AVNU Paymaster',
     description: 'Gasless transactions - Pay gas fees with USDC, ETH, or STRK',
-    logo: '⚡',
+    logo: '/avnu.jpeg',
     link: 'https://doc.avnu.fi/',
     color: 'from-purple-500 to-purple-600',
   },
   {
     name: 'Extended Protocol',
     description: 'Perpetuals trading infrastructure with 50+ markets',
-    logo: '📊',
+    logo: '/extended.png',
     link: 'https://docs.extended.exchange/',
     color: 'from-blue-500 to-blue-600',
   },
   {
     name: 'Pragma Oracle',
     description: 'Real-time price feeds for accurate market data',
-    logo: '🔮',
-    link: 'https://docs.pragma.build/',
+    logo: '/pragma.png',
+    link: 'https://www.pragma.build/',
     color: 'from-green-500 to-green-600',
   },
   {
     name: 'Sats Connect',
     description: 'Xverse wallet integration for Bitcoin + Starknet',
-    logo: '₿',
+    logo: '/sats.png',
     link: 'https://docs.xverse.app/sats-connect/',
     color: 'from-orange-500 to-orange-600',
   },
   {
     name: 'Starknet',
     description: 'Layer 2 scaling solution with Cairo smart contracts',
-    logo: '⚙️',
+    logo: '/starknet.jpeg',
     link: 'https://www.starknet.io/',
     color: 'from-indigo-500 to-indigo-600',
   },
   {
     name: 'Threshold Network',
-    description: 'tBTC - 1:1 Bitcoin-backed token on Starknet',
-    logo: '🔐',
+    description: 'bBTC - 1:1 Bitcoin-backed token on Starknet',
+    logo: '/threshold.jpeg',
     link: 'https://threshold.network/',
     color: 'from-red-500 to-red-600',
   },
@@ -82,8 +83,14 @@ export function Integrations() {
             >
               <div className="h-full p-6 rounded-xl bg-brand-dark-lighter/30 backdrop-blur-md border border-brand-accent/20 hover:bg-brand-dark-lighter/50 hover:border-brand-accent/40 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-brand-accent/10">
                 <div className="flex items-start justify-between mb-4">
-                  <div className={`text-4xl w-16 h-16 rounded-lg bg-gradient-to-br ${integration.color} flex items-center justify-center group-hover:scale-110 transition-transform`}>
-                    {integration.logo}
+                  <div className="w-16 h-16 rounded-lg bg-white flex items-center justify-center group-hover:scale-110 transition-transform overflow-hidden">
+                    <Image
+                      src={integration.logo}
+                      alt={integration.name}
+                      width={64}
+                      height={64}
+                      className="object-cover w-full h-full"
+                    />
                   </div>
                   <ExternalLink className="w-5 h-5 text-brand-light/40 group-hover:text-brand-accent transition-colors" />
                 </div>

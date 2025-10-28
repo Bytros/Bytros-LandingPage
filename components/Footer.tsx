@@ -32,7 +32,7 @@ export function Footer() {
                 <Twitter className="w-5 h-5 text-brand-light/70 hover:text-brand-accent transition-colors" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/Bytros"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-brand-dark/50 border border-brand-accent/20 hover:border-brand-accent/40 hover:bg-brand-dark-lighter/50 transition-all duration-300"
@@ -81,7 +81,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-brand-light/70 hover:text-brand-accent transition-colors flex items-center gap-2">
+                <a href="https://github.com/Bytros" target="_blank" rel="noopener noreferrer" className="text-brand-light/70 hover:text-brand-accent transition-colors flex items-center gap-2">
                   <Github className="w-4 h-4" />
                   GitHub
                 </a>

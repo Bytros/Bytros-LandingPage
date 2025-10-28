@@ -70,11 +70,23 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.7 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <button className="group relative px-8 py-4 bg-brand-accent hover:bg-brand-accent-dark text-brand-light font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-brand-accent/25 hover:shadow-brand-accent/40 hover:scale-105 flex items-center gap-2">
+            <button
+              onClick={() => {
+                const ctaSection = document.querySelector('#cta-section');
+                ctaSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="group relative px-8 py-4 bg-brand-accent hover:bg-brand-accent-dark text-brand-light font-semibold rounded-lg transition-all duration-300 shadow-lg shadow-brand-accent/25 hover:shadow-brand-accent/40 hover:scale-105 flex items-center gap-2"
+            >
               Get Notified
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="px-8 py-4 border-2 border-brand-accent/30 bg-brand-accent/10 hover:bg-brand-accent/20 text-brand-light font-semibold rounded-lg transition-all duration-300 hover:border-brand-accent/50">
+            <button
+              onClick={() => {
+                const featuresSection = document.querySelector('#features');
+                featuresSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="px-8 py-4 border-2 border-brand-accent/30 bg-brand-accent/10 hover:bg-brand-accent/20 text-brand-light font-semibold rounded-lg transition-all duration-300 hover:border-brand-accent/50"
+            >
               Learn More
             </button>
           </motion.div>

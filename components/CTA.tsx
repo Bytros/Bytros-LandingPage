@@ -145,7 +145,7 @@ export function CTA() {
                   <Twitter className="w-6 h-6 text-brand-light/70 hover:text-brand-accent transition-colors" />
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Bytros"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-lg bg-brand-dark/50 border border-brand-accent/20 hover:border-brand-accent/40 hover:bg-brand-dark-lighter/50 transition-all duration-300 hover:scale-110"

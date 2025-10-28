@@ -36,8 +36,8 @@ const features = [
   },
   {
     icon: DollarSign,
-    title: 'tBTC Collateral',
-    description: 'Use native tBTC token (1:1 backed by Bitcoin) as collateral.',
+    title: 'bBTC Collateral',
+    description: 'Use native bBTC token (1:1 backed by Bitcoin) as collateral.',
     color: 'text-pastel-green-400',
   },
   {

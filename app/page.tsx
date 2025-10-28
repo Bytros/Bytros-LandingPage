@@ -24,7 +24,9 @@ export default function LandingPage() {
       <div id="technology">
         <TechStack />
       </div>
-      <CTA />
+      <div id="cta-section">
+        <CTA />
+      </div>
       <Footer />
     </main>
   );
